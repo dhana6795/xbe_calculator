@@ -149,7 +149,7 @@ export default function Calculator() {
             <p className="mt-5 text-md leading-6 font-bold text-blue-600"> Here is the calculated revenue details and over recovery cost details</p>
             <div class="mt-6 flex items-center justify-center gap-x-6">
                 <span>Zero-Intercept Dollars Per Hour</span>
-                <span className="font-bold">{} </span>
+                <span className="font-bold"> {interceptDollorPerHour} </span>
             </div>
             <div class="mt-6 flex items-center justify-center gap-x-6">
                 <span>Base Revenue</span> <span className="font-bold">{baseRevenue}</span>
